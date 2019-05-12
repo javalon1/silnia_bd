@@ -9,13 +9,14 @@ public class Saruss {
     {
         int a =1;
         int b = 1;
+        int det =0;
         int wynik = 0;
         for(int i = 0;i<tab.length;i++)
         {
             for(int j =0; j<tab.length;j++)
             {
                 a *= tab[i][j];
-                b *= tab[i+1][j]
+                b *= tab[i+1][j];
             }
             wynik +=det;
         }
